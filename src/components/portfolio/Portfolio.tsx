@@ -21,7 +21,7 @@ import {
   X,
   ArrowDown,
 } from "lucide-react";
-import srour from "@/assets/srour.jpg.asset.json";
+
 import { content, projects, skills, tools, SOCIALS, type Lang } from "./i18n";
 
 const serviceIcons = [PenTool, Layers, Video, Film, Megaphone, Palette, Clapperboard, Briefcase];
@@ -252,7 +252,7 @@ function Hero({ lang }: { lang: Lang }) {
           className="relative mx-auto w-full max-w-sm md:max-w-none"
         >
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-white/10">
-            <img src="/1771413337063.jpg" alt="Srour Mamdouh" className="h-full w-full object-cover" />
+            <img src="/srour.png" alt="Srour Mamdouh" className="h-full w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
             <div className="absolute inset-x-0 bottom-0 p-5">
               <div className="flex items-end justify-between text-[10px] uppercase tracking-[0.25em] text-foreground/80">
